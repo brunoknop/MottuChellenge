@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{551C4338-1E4C-4CA6-B1C3-6C257578C3FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherData.Api", "src\WeatherData.Api\WeatherData.Api.csproj", "{81598D81-8C5B-4E89-8A94-233005B3B2C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherData.Communication", "src\WeatherData.Communication\WeatherData.Communication.csproj", "{DFFDC8B2-C557-4665-90F4-BF6D3AB4FFB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherData.Infrastructure", "src\WeatherData.Infrastructure\WeatherData.Infrastructure.csproj", "{111CC9B2-935A-4A3E-9709-87DF4650E324}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherData.Domain", "src\WeatherData.Domain\WeatherData.Domain.csproj", "{08656456-E00D-4DE6-8948-DC4BD4D7DEF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherData.Application", "src\WeatherData.Application\WeatherData.Application.csproj", "{C7D32CCB-CD83-43D7-BAE3-01F6CFE489A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherData.Exception", "src\WeatherData.Exception\WeatherData.Exception.csproj", "{DF437852-CCCA-43B5-BC76-1044D11F6F72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81598D81-8C5B-4E89-8A94-233005B3B2C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81598D81-8C5B-4E89-8A94-233005B3B2C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81598D81-8C5B-4E89-8A94-233005B3B2C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81598D81-8C5B-4E89-8A94-233005B3B2C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFFDC8B2-C557-4665-90F4-BF6D3AB4FFB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFDC8B2-C557-4665-90F4-BF6D3AB4FFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFDC8B2-C557-4665-90F4-BF6D3AB4FFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFDC8B2-C557-4665-90F4-BF6D3AB4FFB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{111CC9B2-935A-4A3E-9709-87DF4650E324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111CC9B2-935A-4A3E-9709-87DF4650E324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111CC9B2-935A-4A3E-9709-87DF4650E324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111CC9B2-935A-4A3E-9709-87DF4650E324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08656456-E00D-4DE6-8948-DC4BD4D7DEF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08656456-E00D-4DE6-8948-DC4BD4D7DEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08656456-E00D-4DE6-8948-DC4BD4D7DEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08656456-E00D-4DE6-8948-DC4BD4D7DEF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D32CCB-CD83-43D7-BAE3-01F6CFE489A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D32CCB-CD83-43D7-BAE3-01F6CFE489A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D32CCB-CD83-43D7-BAE3-01F6CFE489A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D32CCB-CD83-43D7-BAE3-01F6CFE489A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF437852-CCCA-43B5-BC76-1044D11F6F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF437852-CCCA-43B5-BC76-1044D11F6F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF437852-CCCA-43B5-BC76-1044D11F6F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF437852-CCCA-43B5-BC76-1044D11F6F72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81598D81-8C5B-4E89-8A94-233005B3B2C1} = {551C4338-1E4C-4CA6-B1C3-6C257578C3FF}
+		{DFFDC8B2-C557-4665-90F4-BF6D3AB4FFB2} = {551C4338-1E4C-4CA6-B1C3-6C257578C3FF}
+		{111CC9B2-935A-4A3E-9709-87DF4650E324} = {551C4338-1E4C-4CA6-B1C3-6C257578C3FF}
+		{08656456-E00D-4DE6-8948-DC4BD4D7DEF8} = {551C4338-1E4C-4CA6-B1C3-6C257578C3FF}
+		{C7D32CCB-CD83-43D7-BAE3-01F6CFE489A5} = {551C4338-1E4C-4CA6-B1C3-6C257578C3FF}
+		{DF437852-CCCA-43B5-BC76-1044D11F6F72} = {551C4338-1E4C-4CA6-B1C3-6C257578C3FF}
+	EndGlobalSection
+EndGlobal
